@@ -43,7 +43,7 @@ dep_gdkx11 = dependency('gdk-x11-3.0', version: gnome_minimum_version)
 dep_libuuid = dependency('uuid')
 
 # gtk 3.18 needed for old APIs
-dep_gtk318 = dependency('gtk+-3.0', version: '< 3.19', required: false)
+dep_gtk318 = dependency('gtk+-3.0', version: '>= 3.18', required: false)
 
 # Needed for keyboardy bits
 dep_ibus = dependency('ibus-1.0', version: '>= 1.5.10')
