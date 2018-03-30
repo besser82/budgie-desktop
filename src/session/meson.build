@@ -9,7 +9,6 @@ gnome_session_components = [
 ]
 
 gnome_session_324_components = [
-    'org.gnome.SettingsDaemon.A11yKeyboard',
     'org.gnome.SettingsDaemon.A11ySettings',
     'org.gnome.SettingsDaemon.Clipboard',
     'org.gnome.SettingsDaemon.Color',
